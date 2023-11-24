@@ -1,0 +1,133 @@
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 960px;
+  }
+  .story-card {
+    max-width: 300px;
+  }
+
+  .deals-card:nth-child(7) {
+    margin-top: 0px;
+  }
+  .deals-container {
+    height: 2200px;
+  }
+}
+@media (max-width: 960px) {
+  .wrapper {
+    max-width: 760px;
+  }
+  .story-card {
+    max-width: 230px;
+  }
+  .section::before {
+    font-size: 110px;
+  }
+  .header-search {
+    display: none;
+  }
+  .insta-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 760px) {
+  .wrapper {
+    max-width: 480px;
+  }
+  .header-logo {
+    gap: 10px;
+  }
+  .header-links {
+    gap: 12px;
+  }
+  .header-menu {
+    margin-bottom: 50px;
+  }
+  .section-label {
+    margin-bottom: 30px;
+  }
+  .header-title {
+    font-size: 48px;
+  }
+
+  .section::before {
+    font-size: 85px;
+    line-height: 95px;
+    margin-top: 40px;
+  }
+
+  .services-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .services-icon {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .services::before {
+    font-size: 65px;
+  }
+  .deals-container {
+    height: max-content;
+  }
+
+  .insta-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feedback-comments {
+    flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .wrapper {
+    max-width: 320px;
+  }
+  .header-menu {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-title {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  /* header-contacts*/
+
+  .header-contacts {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .header-contact {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /*story*/
+  .story-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .story-card {
+    width: 100%;
+  }
+  .header {
+    padding-bottom: 65px;
+  }
+
+  .deals-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .wrapper {
+    max-width: 320px;
+  }
+}
+/*form*/
